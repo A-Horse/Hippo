@@ -1,0 +1,23 @@
+body, html, div {
+  margin: 0;
+  padding: 0; }
+
+.preview-img {
+  width: 100px; }
+
+.image-show-container {
+  overflow: hidden;
+  width: 500%; }
+
+.show-image {
+  display: block;
+  position: relative; }
+
+.show-image-wrapper {
+  overflow: hidden;
+  width: 100%;
+  display: none;
+  float: left; }
+
+.write-icon {
+  position: absolute; }

@@ -1,0 +1,32 @@
+{
+    "name": "hippo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "babel --presets es2015,stage-0 -d build/ lib/",
+        "compile-bin": "babel --presets es2015,stage-0 bin/hippo.js > bin/hippo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/A-Horse/Hippo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/A-Horse/Hippo/issues"
+    },
+    "bin": {
+        "hippo": "bin/hippo"
+    },
+    "homepage": "https://github.com/A-Horse/Hippo#readme",
+    "dependencies": {
+        "babel-preset-es2015": "^6.5.0",
+        "express": "^4.13.4",
+        "meow": "^3.7.0"
+    },
+    "devDependencies": {
+        "babel-preset-stage-0": "^6.5.0"
+    }
+}

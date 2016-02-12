@@ -1,0 +1,13 @@
+#! /usr/bin/env node
+'use strict';
+
+// require('../lib/check.js')();
+
+var _cli = require('../build/cli');
+
+var _cli2 = _interopRequireDefault(_cli);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_cli2.default.run(process.argv);
+
